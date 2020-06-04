@@ -151,6 +151,7 @@
                         <exclude>**/za/co/bmw/invoice/dto/**</exclude>
                          <exclude>**/za/co/bmw/invoice/domain/**</exclude>
                          <exclude>**/za/co/bmw/invoice/repository/**</exclude>
+                        <exclude>**/za/co/bmw/invoice/logging/**</exclude>
                     </excludes>
                 </configuration>
             </plugin>
