@@ -1,0 +1,22 @@
+{
+  "client": "Test",
+  "invoiceDate": "2020-06-04",
+  "lineItems": [
+    {
+      "description": "Test Description 1",
+      "quantity": 10,
+      "unitPrice": 199.99
+    },
+    {
+      "description": "Test Description 2",
+      "quantity": 3,
+      "unitPrice": 159.99
+    },
+    {
+      "description": "Test Description 3",
+      "quantity": 5,
+      "unitPrice": 79.99
+    }
+  ],
+  "vatRate": 15
+}
