@@ -8,6 +8,7 @@ import za.co.bmw.invoice.dto.InvoiceDTO;
 import za.co.bmw.invoice.repository.InvoiceRepository;
 import za.co.bmw.invoice.service.InvoiceService;
 
+import javax.validation.Valid;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -26,7 +27,7 @@ public class InvoiceController {
 
     @ApiOperation(value="Adds a new invoice")
     @PostMapping(produces = "application/json")
-    public InvoiceDTO addInvoice(@RequestBody InvoiceDTO invoice){
+    public InvoiceDTO addInvoice(@RequestBody @Valid InvoiceDTO invoice){
         InvoiceDTO result = invoiceService.save(invoice);
         return result;
     }
